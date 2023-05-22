@@ -1,7 +1,7 @@
 import re
 
 pattern = r'^(.+)\sS(\d{2})E(\d{2}): (.+)$'
-string = "Show Name S01E02: Episode Title"
+string = "Sistas S06E02: Full Circle Moments"
 
 match = re.match(pattern, string)
 if match:
