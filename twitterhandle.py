@@ -1,7 +1,7 @@
 import re
 
 def match_twitter_handle():
-    # Twitter Usernames: "@username"
+    # Twitter Username: "@username"
     twitter_pattern = r"@(\w+)"
 
     # Get user input
