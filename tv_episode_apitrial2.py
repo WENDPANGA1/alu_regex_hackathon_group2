@@ -17,7 +17,7 @@ if response.status_code == 200:
         link = item['link']
         snippet = item['snippet']
 
-        match = re.match(r'^(.+)\sS(\d{2})E(\d{2}): (.+)$', TV Episode Titles)
+        match = re.match(r'^(.+)\sS(\d{2})E(\d{2}): (.+)$', 'TV Episode Titles')
         if match:
             show_name = match.group(1)
             season_number = match.group(2)
