@@ -3,7 +3,7 @@
 import re
 
 # Jokes string
-input_string = "Why did the chicken cross the road? Because it wanted to get to the other side."
+input_string = input ("Enter a joke:")
 
 # Regular expression pattern for jokes
 pattern = r"Why did the .*? \? Because.*"
